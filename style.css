@@ -9,6 +9,8 @@ body {
     margin: 0;
 }
 
+header, footer, main {padding: 0 140px;}
+
 header, footer {
     flex: 0 0 auto;
     background-color: #1f2937;
@@ -18,7 +20,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 #logo {
