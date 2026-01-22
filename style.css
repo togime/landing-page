@@ -44,7 +44,7 @@ nav {
     gap: 24px;
 }
 
-nav a, #hero p, #join p {
+nav a, #hero p, #join p, footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -192,4 +192,13 @@ button {
 #join button {
     color: #f9faf8;
     border: 2px solid #f9faf8;
+}
+
+/* - - - - FOOTER SECTION */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
