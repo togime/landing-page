@@ -1,3 +1,5 @@
+/* - - - - GENERAL */
+
 * {
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     box-sizing: border-box;
@@ -23,6 +25,9 @@ header.background, footer.background {
     background-color: #1f2937;
 }
 
+
+/* - - - - HEADER SECTION */
+
 header .content {
     display: flex;
     justify-content: space-between;
@@ -47,6 +52,9 @@ nav a, #hero p {
 main {
     flex: 1;
 }
+
+
+/* - - - - HERO SECTION */
 
 #hero.background {background-color: #1f2937;}
 
@@ -84,6 +92,9 @@ main {
     height: auto;
     max-width: 50%;
 }
+
+
+/* - - - - INFO SECTION */
 
 #info .content {
     display: flex;
@@ -128,4 +139,30 @@ main {
 .info-item p {
     text-align: center;
     padding: 8px;
+}
+
+
+/* - - - - QUOTE SECTION */
+
+#quote.background {background-color: #e5e7eb;}
+
+#quote .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 3% 80px 8%;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 4%;
 }
